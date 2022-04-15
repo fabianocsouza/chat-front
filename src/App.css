@@ -1,0 +1,89 @@
+@import '~antd/dist/antd.css';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: rgb(214, 231, 190);
+  background: rgb(80, 123, 128);
+  font-size: 25px;
+}
+
+.message-list {
+  height: 100%;
+  overflow-y: scroll;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.chat-bubble {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.chat-bubble[data-isowner='true'] {
+  background-color: rgba(80, 123, 128, 0.6);
+  align-self: flex-end;
+}
+.ant-modal-content {
+  border-radius: 15px;
+}
+
+.ant-modal-header {
+  border-radius: 15px 15px 0 0;
+}
+
+.login-modal {
+  border-radius: 15px;
+}
+
+.image {
+  align-items: center;
+  background-image: url('./folha.png');
+  height: 100%;
+}
+
+main {
+  background-color: rgb(213, 231, 190);
+}
+
+.ant-comment-content-author-time {
+  color: rgb(80, 123, 128);
+}
+
+.ant-modal-content,
+.ant-modal-header,
+.ant-modal-title {
+  background-color: rgb(214, 231, 190);
+  color: rgb(80, 123, 128);
+}
+
+.ant-form-item-label .ant-form-item-required {
+  color: rgb(80, 123, 128);
+}
+
+.ant-comment-content-author-name {
+  color: rgb(214, 231, 190);
+  font-size: 20px !important;
+}
+
+.ant-comment-content-author-time {
+  color: rgb(207, 207, 207);
+}
