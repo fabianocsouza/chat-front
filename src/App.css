@@ -60,10 +60,6 @@ main {
   height: 100%;
 }
 
-main {
-  background-color: rgb(213, 231, 190);
-}
-
 .ant-comment-content-author-time {
   color: rgb(80, 123, 128);
 }
