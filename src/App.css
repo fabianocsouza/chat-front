@@ -77,10 +77,10 @@ main {
 }
 
 .ant-comment-content-author-name {
-  color: rgb(214, 231, 190);
+  color: #000;
   font-size: 20px !important;
 }
 
 .ant-comment-content-author-time {
-  color: rgb(207, 207, 207);
+  color: #fff;
 }
