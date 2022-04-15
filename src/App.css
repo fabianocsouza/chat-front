@@ -57,7 +57,7 @@ main {
 
 .image {
   align-items: center;
-  background-image: url('./folha.png');
+  background-image: url('../public/assets/folha.png');
   height: 100%;
 }
 

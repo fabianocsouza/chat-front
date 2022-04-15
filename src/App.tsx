@@ -52,7 +52,6 @@ function App() {
         
         <AppHeader userName={userName} />
         <div className="image">
-         
             <section ref={messageListRef} className="message-list">
               {messages.map((message) => (
                 <ChatBubble key={message.time} item={message} isOwner={userName === message.userName} />
